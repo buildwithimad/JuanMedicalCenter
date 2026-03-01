@@ -127,6 +127,17 @@ If adding new features (e.g., contact form email service), configure environment
 | `npm run start` | Start production server |
 | `npm run lint` | Run ESLint |
 
+## Custom 404 Page
+
+A custom "Not Found" page has been created at `app/[lang]/not-found.js` that follows the same design language as other pages:
+- Full English and Arabic (RTL) language support
+- Matching color scheme (#1e635f teal)
+- Smooth scroll-based animations
+- Responsive design
+- Back to Home navigation button
+
+The root `app/not-found.js` redirects to the English version for routes without a language prefix.
+
 ## License
 
 This project is for internal use by Juan Medical Company.
